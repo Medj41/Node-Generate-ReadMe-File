@@ -8,12 +8,12 @@ const questions = [
     {
         type: 'input',
         message: 'what is the title of your project?',
-        name: 'project name',
+        name: 'title',
     },
     {
         type: 'input',
         message: 'what is your GitHub username?',
-        name: 'GitHub UserName',
+        name: 'GitHub',
     },
 
     {
@@ -43,14 +43,6 @@ const questions = [
         name: 'usage',
     },
 
-    
-
-    // {
-    //     type: 'checkbox',
-    //     message: 'What languages do you know?',
-    //     name: 'languages',
-    //     choices: ['HTML', 'CSS', 'JavaScript']
-    // },
     {
         type: 'list',
         message: 'what license did you use',
@@ -79,6 +71,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+fs.writeFileSync(fileName, data)
 }
 
 // function to initialize program
@@ -86,13 +79,15 @@ function init() {
     inquirer
     .prompt(questions)
     .then((answers) => {
+        console.log(answers);
       // Use user feedback for... whatever!!
+      writeToFile('README.md',generateMarkdown(answers) )
+      
     })
     .catch((error) => {
       if (error.isTtyError) {
 console.log(error)
-    } else {
-      }
+    } 
     });
 }
 
