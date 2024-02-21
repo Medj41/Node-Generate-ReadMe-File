@@ -1,24 +1,23 @@
 
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]
-# k
+# Read Me file
+![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 ## Discription
-s
+When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project. 
 ## Email
-s
+larbidjouama@hotmail.co.uk
 ## GitHub
-s
+larbi
 ## Table of Contents
-d
+Yes
 ## Installation 
-f
+yes
 ## Usage 
-g
+yes
 ## License 
-Apache License
-
+MIT
 ## Contributing 
-g
+larbi
 ## Tests 
-g
+Yes
 ## Questions
-g
+No

@@ -48,11 +48,13 @@ const questions = [
     message: "what license did you use",
     name: "License",
     choices: [
-      "The MIT License",
-      "the GPL License",
-      "Apache License",
-      "GNU License",
-      "N/A",
+            "Apache",
+            "Academic",
+            "GNU",
+            "ISC",
+            "MIT",
+            "Mozilla",
+            "Open"
     ],
   },
 
