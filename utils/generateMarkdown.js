@@ -4,13 +4,24 @@ function generateMarkdown(data) {
 # ${data.title}
 ![badge](https://img.shields.io/badge/license-${data.License}-brightgreen)
 ## Discription
+[Discription](#Discription)
 ${data.Discription}
 ## Email
+[Email](#Email)
 ${data.email}
 ## GitHub
 ${data.GitHub}
 ## Table of Contents
 ${data.centent}
+[Discription](#Discription)
+[Email](#Email)
+[GitHub](#GitHub)
+[Installation](#Installation)
+[Usage](#Usage)
+[License](#License)
+[Contributing](#Contributing)
+[Tests](#Tests)
+[Questions](#Questions)
 ## Installation 
 ${data.Intalation}
 ## Usage 
