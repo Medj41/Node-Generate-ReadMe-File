@@ -13,15 +13,15 @@ ${data.email}
 ${data.GitHub}
 ## Table of Contents
 ${data.centent}
-[Discription](#Discription)
-[Email](#Email)
-[GitHub](#GitHub)
-[Installation](#Installation)
-[Usage](#Usage)
-[License](#License)
-[Contributing](#Contributing)
-[Tests](#Tests)
-[Questions](#Questions)
+- [Discription](#Discription)
+- [Email](#Email)
+- [GitHub](#GitHub)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Tests](#Tests)
+- [Questions](#Questions)
 ## Installation 
 ${data.Intalation}
 ## Usage 
