@@ -4,6 +4,10 @@ As a developer, having a high-quality README for a project/application is crucia
 
 For visual instructions on usage, check out this demo video.
 
+link to Video:
+https://drive.google.com/file/d/1Chb2vvrCthdu3xymLmbaiVhymKRdJL5s/view
+
+
 User Story
 
 As a developer, I want a README generator so that I can quickly create a professional README for a new project.

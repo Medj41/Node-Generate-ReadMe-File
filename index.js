@@ -29,7 +29,7 @@ const questions = [
   {
     type: "input",
     message: "Table of content ",
-    name: "Content ",
+    name: "content ",
   },
   {
     type: "input",
@@ -89,7 +89,7 @@ function init() {
     .then((answers) => {
       console.log(answers);
       // Use user feedback for... whatever!!
-      writeToFile("Gnerated-README.md", generateMarkdown(answers));
+      writeToFile("generated-README.md", generateMarkdown(answers));
     })
     .catch((error) => {
       if (error.isTtyError) {
