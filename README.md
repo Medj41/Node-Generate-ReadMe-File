@@ -8,7 +8,9 @@ link to Video:
 https://drive.google.com/file/d/1Chb2vvrCthdu3xymLmbaiVhymKRdJL5s/view
 
 
-[Untitled_ Feb 25, 2024 2_35 AM.webm](https://github.com/Medj41/Node-Generate-ReadMe-File/assets/127996990/dd42b321-9cbb-47d3-8022-0f451a532173)
+
+https://github.com/Medj41/Node-Generate-ReadMe-File/assets/127996990/234ab4b9-5683-40bf-8575-b8873a653687
+
 
 
 Screenshot of the terminal:
