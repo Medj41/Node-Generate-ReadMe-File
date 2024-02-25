@@ -8,44 +8,44 @@ const questions = [
   {
     type: "input",
     message: "what is the title of your project?",
-    name: "title",
+    name: "Title",
   },
   {
     type: "input",
-    message: "what is your GitHub username?",
+    message: "What is your GitHub UserName?",
     name: "GitHub",
   },
 
   {
     type: "input",
-    message: "what is your email",
-    name: "email",
+    message: "What is your email",
+    name: "Email",
   },
   {
     type: "input",
-    message: "provide a discription of your prject",
-    name: "Discription",
+    message: "provide a description of your project",
+    name: "Description",
   },
   {
     type: "input",
-    message: "Table of centent",
-    name: "centent",
+    message: "Table of content ",
+    name: "Content ",
   },
   {
     type: "input",
-    message: "Intalation",
-    name: "Intalation",
+    message: "Installation",
+    name: "Installation",
   },
 
   {
     type: "input",
     message: "Usage",
-    name: "usage",
+    name: "Usage",
   },
 
   {
     type: "list",
-    message: "what license did you use",
+    message: "What license did you use",
     name: "License",
     choices: [
             "Apache",
@@ -60,19 +60,19 @@ const questions = [
 
   {
     type: "input",
-    message: "contrubution",
-    name: "contrubution",
+    message: "Contribution",
+    name: "Contribution",
   },
 
   {
     type: "input",
-    message: "tests",
-    name: "test",
+    message: "Test",
+    name: "Test",
   },
 
   {
     type: "input",
-    message: "questions",
+    message: "Questions",
     name: "Questions",
   },
 ];
@@ -89,7 +89,7 @@ function init() {
     .then((answers) => {
       console.log(answers);
       // Use user feedback for... whatever!!
-      writeToFile("README.md", generateMarkdown(answers));
+      writeToFile("Gnerated-README.md", generateMarkdown(answers));
     })
     .catch((error) => {
       if (error.isTtyError) {
