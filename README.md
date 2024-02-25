@@ -21,7 +21,6 @@ User Story
 
 As a developer, I want a README generator so that I can quickly create a professional README for a new project.
 
-##Acceptance Criteria
 
 Create a command-line application that accepts user input.
 Generate a high-quality, professional README.md:
@@ -53,7 +52,9 @@ Next, clone this project repository to your computer. Then, to install dependenc
 
 Usage
 
-Ensure you are in the correct folder in your terminal. You can invoke this application by typing node index.js in the command line.
+make sure you are in the right folder in your terminal
+This application can be invoked by typing [node index.js] in the command line
+
 
 
 
